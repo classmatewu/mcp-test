@@ -1,0 +1,56 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "mcp-test",
+      "version": "1.0.0",
+      "description": "An MCP experiment code",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/classmatewu/mcp-test.git"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/classmatewu/mcp-test/issues"
+      },
+      "homepage": "https://github.com/classmatewu/mcp-test#readme"
+    },
+    "prefix": "/Users/zelinwu/ai/mcp-test"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/zelinwu/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/zelinwu/ai/mcp-test/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/zelinwu/ai/mcp-test",
+    "stage": "resolution_started"
+  },
+  "4 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "zod is not in the npm registry, or you have no permission to fetch it.\n\nAn authorization header was used: Basic emVs[hidden]",
+    "request": {
+      "authHeaderValue": "Basic emVsaW53dTozNWQ0NWJmNGVhYzIxMWVjYjY3ODE2MDNlMmQzOTFhMQ==",
+      "url": "http://r.tnpm.oa.com/zod"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "zod",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET http://r.tnpm.oa.com/zod: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET http://r.tnpm.oa.com/zod: Not Found - 404\n    at RetryOperation._fn (/Users/zelinwu/.nvm/versions/node/v14.16.0/lib/node_modules/pnpm/dist/pnpm.cjs:85663:19)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+    }
+  }
+}
